@@ -1,0 +1,85 @@
+/* Header  */
+header {
+  height: 100vh;
+  background: url(../img/img-1.jpg);
+  background-position: center;
+  background-size: cover;
+  backg
+}
+
+/* Navigation  */
+nav {
+  background-color: #000;
+  line-height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 0 7rem;
+}
+
+.brand {
+  font-style: italic;
+  cursor: pointer;
+}
+
+.main-nav-links {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+.main-nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.1s;
+}
+
+.main-nav-links li a:hover {
+  color: #ffb142;
+}
+
+.main-nav-btn-box {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.main-nav-btn-box ion-icon {
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.main-nav-btn-box ion-icon:hover {
+  color: #ffb142;
+}
+
+.hero-container {
+  max-width: 120rem;
+  /* background-color: red; */
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+
+.hero-container .heading {
+  font-size: 5.6rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.hero-container p {
+  line-height: 1.7;
+  margin-bottom: 3rem;
+  color: #ffffffa2;
+}
+
+.hero-btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ffb142;
+  font-family: inherit;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.5rem;
+}
