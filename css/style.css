@@ -9,12 +9,17 @@ header {
 
 /* Navigation  */
 nav {
+  z-index: 1;
   background-color: #000;
-  line-height: 8rem;
+  line-height: 10rem;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   color: white;
   padding: 0 7rem;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .brand {
@@ -202,7 +207,85 @@ nav {
   background-color: red;
 }
 
+.contact-header .sub-title {
+  padding-top: 4rem;
+}
+
+.contact-header p {
+  text-align: center;
+}
+
+.contact-container {
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-box {
+  background-color: blue;
+  padding: 3rem;
+}
+
+.form-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form-box .form-input {
+  background-color: green;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.form-box .form-input label {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+
+.form-box .form-input ion-icon {
+  position: absolute;
+  top: 35%;
+  left: 13%;
+}
+
+.form-box .form-input input {
+  width: 25rem;
+  padding: 0.8rem 1.6rem;
+  outline: none;
+  font-family: inherit;
+}
+
+.form-input input:focus .label {
+  color: red;
+}
+
+.form-btn-box {
+  margin-top: 2rem;
+}
+
 .form-img {
-  width: 30%;
+  width: 23.5%;
   height: auto;
+}
+
+.form-btn {
+  color: #fff;
+  background-color: #ffb142;
+  font-family: inherit;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.5rem;
+  transition: 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  background-color: #cc8e35;
 }
