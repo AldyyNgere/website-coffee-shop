@@ -150,15 +150,19 @@ nav {
   gap: 3rem;
 }
 
-.first-bottom-menu-box,
-.second-bottom-menu-box {
+.first-bottom-menu-box {
+  background-color: green;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  gap: 1rem;
+}
+
+.first-bottom-menu-box .menu-item {
+  border: solid yellow 3px;
 }
 
 .menu-img {
-  width: 10%;
+  width: 45%;
   height: auto;
   border-radius: 100%;
 }
