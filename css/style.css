@@ -125,10 +125,10 @@ nav {
   height: 100vh;
   background-color: #000;
   color: #fff;
+  padding-top: -10rem;
 }
 
 .menu-container {
-  background: red;
   max-width: 120rem;
   margin: 0 auto;
   display: flex;
@@ -137,7 +137,6 @@ nav {
 }
 
 .top-menu-box {
-  background-color: blue;
 }
 
 .top-menu-box p {
@@ -150,19 +149,40 @@ nav {
   gap: 3rem;
 }
 
-.first-bottom-menu-box {
-  background-color: green;
+.second-bottom-menu-box {
+  padding: 0 30rem;
+}
+
+.first-bottom-menu-box,
+.second-bottom-menu-box {
   display: flex;
   flex-direction: row;
   gap: 1rem;
 }
 
-.first-bottom-menu-box .menu-item {
-  border: solid yellow 3px;
+.first-bottom-menu-box .menu-item,
+.second-bottom-menu-box .menu-item {
+}
+
+.first-bottom-menu-box h3,
+.second-bottom-menu-box h3 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.first-bottom-menu-box p,
+.second-bottom-menu-box p {
+  text-align: center;
 }
 
 .menu-img {
   width: 45%;
   height: auto;
   border-radius: 100%;
+  margin-bottom: 1.4rem;
+}
+
+.second-bottom-menu-box .menu-img {
+  width: 45%;
+  height: auto;
 }
