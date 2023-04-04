@@ -145,11 +145,16 @@ nav {
 }
 
 .bottom-menu-box {
-  background-color: green;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.first-bottom-menu-box,
+.second-bottom-menu-box {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
 }
 
 .menu-img {
