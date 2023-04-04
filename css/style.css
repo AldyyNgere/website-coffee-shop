@@ -136,9 +136,6 @@ nav {
   flex-direction: column;
 }
 
-.top-menu-box {
-}
-
 .top-menu-box p {
   text-align: center;
 }
@@ -160,8 +157,9 @@ nav {
   gap: 1rem;
 }
 
-.first-bottom-menu-box .menu-item,
-.second-bottom-menu-box .menu-item {
+.top-menu-box p {
+  color: #ffffffa2;
+  font-size: 1.5rem;
 }
 
 .first-bottom-menu-box h3,
@@ -173,6 +171,8 @@ nav {
 .first-bottom-menu-box p,
 .second-bottom-menu-box p {
   text-align: center;
+  color: #ffffffa2;
+  font-size: 1.5rem;
 }
 
 .menu-img {
