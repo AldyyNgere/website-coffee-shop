@@ -119,3 +119,15 @@ nav {
   border-radius: 0.3rem;
   filter: brightness(80%);
 }
+
+/* Menu section  */
+.menu-section {
+  height: 100vh;
+  background-color: #000;
+}
+
+.menu-img {
+  width: 10%;
+  height: auto;
+  border-radius: 100%;
+}
