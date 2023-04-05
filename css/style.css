@@ -67,6 +67,10 @@ nav {
   margin-top: 10rem;
 }
 
+.hero-text-box {
+  padding-top: 8.5rem;
+}
+
 .hero-container .heading {
   font-size: 5.6rem;
   line-height: 1.4;
@@ -110,7 +114,7 @@ nav {
 }
 
 .about-section .sub-title {
-  padding-top: 8rem;
+  padding-top: 13rem;
 }
 
 .about-text-box h3 {
@@ -131,7 +135,7 @@ nav {
 
 /* Menu section  */
 .menu-section {
-  height: 100vh;
+  height: 110vh;
   background-color: #000;
   color: #fff;
   padding-top: -10rem;
@@ -146,7 +150,7 @@ nav {
 }
 
 .menu-section .sub-title {
-  padding-top: 4rem;
+  padding-top: 10rem;
 }
 
 .top-menu-box p {
@@ -203,12 +207,13 @@ nav {
 /* Contact section  */
 
 .contact-section {
-  height: 100vh;
-  background-color: red;
+  height: 110vh;
+  background-color: #000;
+  color: #fff;
 }
 
 .contact-header .sub-title {
-  padding-top: 4rem;
+  padding-top: 12rem;
 }
 
 .contact-header p {
@@ -227,7 +232,7 @@ nav {
 }
 
 .form-box {
-  background-color: blue;
+  background-color: #222;
   padding: 3rem;
 }
 
@@ -238,21 +243,8 @@ nav {
 }
 
 .form-box .form-input {
-  background-color: green;
   padding: 1.5rem;
   position: relative;
-}
-
-.form-box .form-input label {
-  position: absolute;
-  top: 30%;
-  left: 25%;
-}
-
-.form-box .form-input ion-icon {
-  position: absolute;
-  top: 35%;
-  left: 13%;
 }
 
 .form-box .form-input input {
@@ -260,10 +252,9 @@ nav {
   padding: 0.8rem 1.6rem;
   outline: none;
   font-family: inherit;
-}
-
-.form-input input:focus .label {
-  color: red;
+  border: solid #fff 1px;
+  background-color: #000;
+  color: #777;
 }
 
 .form-btn-box {
