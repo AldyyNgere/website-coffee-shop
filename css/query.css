@@ -1,5 +1,5 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media (max-width: 1200px) {
   .hero-text-box {
     padding-left: 6.5rem;
   }
@@ -7,10 +7,23 @@
   .contact-section {
     height: 125vh;
   }
+
+  .menu-section {
+    /* background-color: red; */
+  }
+
+  .second-bottom-menu-box .menu-img {
+    width: 45%;
+    height: auto;
+  }
+
+  .second-bottom-menu-box {
+    padding: 0 30rem;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media (max-width: 992px) {
   nav {
     padding: 0 6rem;
   }
@@ -56,5 +69,161 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media (max-width: 768px) {
+  .hero-text-box {
+    padding-top: 8.5rem;
+    text-align: center;
+  }
+
+  .brand {
+    font-size: 2.2rem;
+  }
+
+  .hero-container .heading {
+    font-size: 5rem;
+  }
+
+  .hero-btn {
+    padding: 0.8rem 1.6rem;
+    font-family: 15rem;
+  }
+
+  .about-section p {
+    font-size: 1.5rem;
+  }
+
+  .about-section-box {
+    margin-top: 5rem;
+    gap: 5rem;
+    padding: 0 3rem;
+  }
+
+  .about-section .sub-title {
+    padding-top: 12rem;
+  }
+
+  .about-text-box h3 {
+    margin-bottom: 1.5rem;
+  }
+
+  .about-section-box img {
+    width: 38%;
+    height: auto;
+  }
+
+  .menu-section {
+    padding: 0 1rem;
+  }
+
+  .first-bottom-menu-box h3,
+  .second-bottom-menu-box h3 {
+    font-size: 1.8rem;
+  }
+
+  .first-bottom-menu-box p,
+  .second-bottom-menu-box p {
+    font-size: 13.5px;
+  }
+
+  .menu-section p {
+    font-size: 1.5rem;
+  }
+
+  .second-bottom-menu-box .menu-img {
+    width: 46%;
+    height: auto;
+  }
+
+  .second-bottom-menu-box {
+    padding: 0 20rem;
+  }
+
+  .contact-header .sub-title {
+    padding-top: 10rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .contact-header p {
+    font-size: 1.5rem;
+  }
+
+  .form-img {
+    width: 32%;
+    height: auto;
+  }
+
+  .form-btn {
+    color: #fff;
+    background-color: #ffb142;
+    font-family: inherit;
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+    border: none;
+    cursor: pointer;
+  }
+
+  .form-btn:hover {
+    background-color: #cc8e35;
+  }
+
+  footer {
+    font-size: 1.5rem;
+  }
+
+  /* MOBILE BUTTON  */
+  .main-nav-links {
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    padding-top: 5rem;
+    background: #000;
+    opacity: 0;
+    transform-origin: right;
+  }
+
+  .main-nav-btn-box {
+    text-align: center;
+    position: absolute;
+    top: 500%;
+    left: 46%;
+    display: flex;
+    opacity: 0;
+    transform-origin: right;
+  }
+
+  .mobile-btn {
+    display: block;
+  }
+
+  #close-btn {
+    display: none;
+  }
+
+  #close-btn.active {
+    display: block;
+  }
+
+  #menu-btn.active {
+    display: none;
+  }
+
+  .main-nav-links.active {
+    width: 100%;
+    opacity: 1;
+  }
+
+  .main-nav-btn-box.active {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 600px) {
 }
