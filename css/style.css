@@ -207,7 +207,7 @@ nav {
 /* Contact section  */
 
 .contact-section {
-  height: 110vh;
+  height: 120vh;
   background-color: #000;
   color: #fff;
 }
@@ -279,4 +279,44 @@ nav {
 
 .form-btn:hover {
   background-color: #cc8e35;
+}
+
+/* Footer  */
+footer {
+  padding-top: 1.5rem;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: #cc8e35;
+  color: #fff;
+}
+
+.top-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.top-footer ion-icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.middle-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.middle-footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.creator {
+  color: #000;
+  font-weight: 600;
 }
