@@ -320,3 +320,21 @@ footer {
   color: #000;
   font-weight: 600;
 }
+
+/* Mobile Button  */
+.mobile-btn {
+  border: none;
+  background-color: #000;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-btn ion-icon {
+  color: #fff;
+  font-size: 2.8rem;
+  transition: 0.2s;
+}
+
+.mobile-btn ion-icon:hover {
+  color: #ffb142;
+}
