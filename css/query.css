@@ -399,6 +399,10 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .second-bottom-menu-box {
+    /* column-gap: 10rem; */
+  }
+
   .first-bottom-menu-box h3,
   .second-bottom-menu-box h3 {
     font-size: 1.6rem;
@@ -411,5 +415,45 @@
 
   .menu-section p {
     font-size: 1.5rem;
+  }
+
+  .second-bottom-menu-box .menu-img {
+    width: 45%;
+    height: auto;
+  }
+
+  .second-bottom-menu-box {
+    padding: 0rem;
+  }
+
+  .contact-header .sub-title {
+    padding-top: 25rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .form-img {
+    width: 35%;
+    height: auto;
+  }
+
+  .form-box {
+    padding: 3rem;
+  }
+
+  .form-box form {
+    gap: 1.5rem;
+  }
+
+  .form-box .form-input {
+    padding: 1.5rem;
+  }
+
+  .form-box .form-input input {
+    width: 22rem;
+    padding: 0.8rem 1.6rem;
+  }
+
+  .form-container {
+    flex-direction: column;
   }
 }
